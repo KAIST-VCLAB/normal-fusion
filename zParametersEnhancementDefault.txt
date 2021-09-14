@@ -1,0 +1,56 @@
+s_maxLevels = 3;
+
+s_maxOuterIter[0] = 5;
+s_maxOuterIter[1] = 7;
+s_maxOuterIter[2] = 9;
+
+s_maxInnerIter[0] = 5;
+s_maxInnerIter[1] = 5;
+s_maxInnerIter[2] = 5;
+
+s_weightsDataShading[0] = 1.0f;
+s_weightsDataShading[1] = 1.0f;
+s_weightsDataShading[2] = 1.0f;
+
+s_weightsDepthTemp[0] = 100.f;
+s_weightsDepthTemp[1] = 100.f;
+s_weightsDepthTemp[2] = 100.f;
+
+//s_weightsDepthTemp[0] = 50.f; // For the fountain
+//s_weightsDepthTemp[1] = 50.f; // For the fountain
+//s_weightsDepthTemp[2] = 50.f; // For the fountain
+
+s_weightsDepthSmooth[0] = 100.f;
+s_weightsDepthSmooth[1] = 100.f;
+s_weightsDepthSmooth[2] = 100.f;
+
+s_weightsAlbedoTemp[0] = 0.01f;
+s_weightsAlbedoTemp[1] = 0.01f;
+s_weightsAlbedoTemp[2] = 0.01f;
+
+s_weightsAlbedoSmooth[0] = 0.1f;
+s_weightsAlbedoSmooth[1] = 0.1f;
+s_weightsAlbedoSmooth[2] = 0.1f;
+
+//s_weightsAlbedoSmooth[0] = 0.25f; // For the Plasters
+//s_weightsAlbedoSmooth[1] = 0.25f; // For the Plasters
+//s_weightsAlbedoSmooth[2] = 0.25f; // For the Plasters
+
+s_weightsLightTemp[0] = 200.f;
+s_weightsLightTemp[1] = 200.f;
+s_weightsLightTemp[2] = 200.f;
+
+// s_weightsLightTemp[0] = 500.f; // For the Lion and Tomb
+// s_weightsLightTemp[1] = 500.f; // For the Lion and Tomb
+// s_weightsLightTemp[2] = 500.f; // For the Lion and Tomb
+
+s_optimizeDepth = false;
+s_optimizeAlbedo = false;
+s_optimizeLight = false;
+s_optimizeFull = true;
+
+s_initialAlbedo = 0.5f;
+// s_initialAlbedo = 0.4f; // For relief
+
+s_ambientLightBase = 1.0f;
+//s_ambientLightBase = 1.5; // For statue
