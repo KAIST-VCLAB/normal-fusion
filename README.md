@@ -26,7 +26,7 @@ To compile our codes, first obtain the entire source codes from the original [vo
 
 2. Replace `DepthSensing.cpp` and `DepthSensing.h` file with `normalFusion.h`, `normalFusion.cpp`, and `normalFusion_main.cpp`
 
-3. Configure the existing files in the `Source/*.h’, `Source/*.cpp’, and `Source/*.cu’ to the Visual Studio project that does not exist in the voxel hashing repository. A list of the newly added codes is duplicated in `Source/NewFileList/`.
+3. Configure the existing files in the `Source/*.h`, `Source/*.cpp`, and `Source/*.cu` to the Visual Studio project that does not exist in the voxel hashing repository. A list of the newly added codes is duplicated in `Source/NewFileList/`.
 
 Note that our source codes inherit the dependency of the original Voxel Hashing project.
 
